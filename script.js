@@ -23,9 +23,9 @@ window.Car = Car;
 window.SportsCar = SportsCar;
 
 const myCar = new Car('Toyota', 'Corolla');
-console.log(myCar.getMakeModel()); // Output: Toyota Corolla
+console.log(myCar.getMakeModel());
 
 const mySportsCar = new SportsCar('Ferrari', '488', 211);
-console.log(mySportsCar.getMakeModel()); // Output: Ferrari 488
-console.log(mySportsCar.getTopSpeed()); // Output: 211
+console.log(mySportsCar.getMakeModel());
+console.log(mySportsCar.getTopSpeed());
 
